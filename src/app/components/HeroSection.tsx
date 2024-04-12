@@ -14,14 +14,7 @@ export const HeroSection = () => {
             </span>
             <br />
             <TypeAnimation
-              sequence={[
-                "Sergio",
-                1000,
-                "Web Developer",
-                1000,
-                "Mobile Developer",
-                1000,
-              ]}
+              sequence={["Sergio", 1000, "Front-End Developer", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
@@ -42,15 +35,15 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[220px] h-[220px] lg:w-[280px] lg:h-[280px] relative">
+          {/* <div className="rounded-full bg-[#181818] w-[220px] h-[220px] lg:w-[280px] lg:h-[280px] relative"> */}
           <Image
-            className="absolute rounded-full object-cover h-[180px] transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            className="rounded-full object-cover w-[200px] h-[200px] lg:h-[300px] lg:w-[300px]"
             alt="hero image"
             src="/images/hero-image.jpeg"
-            width={180}
-            height={180}
+            width={200}
+            height={200}
           />
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>
