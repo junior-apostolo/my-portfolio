@@ -34,6 +34,10 @@ const config = {
         accent: {
           DEFAULT: '#00FF99',
           hover: '#00e187',
+        },
+        dark: {
+          DEFAULT: '#2C74B3',
+          hover: '#205295'
         }
       },
       keyframes: {
